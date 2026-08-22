@@ -1,0 +1,16 @@
+schema: typikon.authority/v0.1
+
+id: oca-order-2026-09-06
+title: Order of Services for Sunday, September 6, 2026
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  service: Great Vespers at a Vigil
+  liturgical_date: 2026-09-06
+  section: Lord I Call
+  qualification: Commonly accepted order; local and diocesan practices may vary
+
+reference:
+  url: https://www.oca.org/PDF/Music/Rubrics/2026-0906-order-services.docx
+  accessed: 2026-08-22

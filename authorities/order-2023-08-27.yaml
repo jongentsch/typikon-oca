@@ -1,0 +1,16 @@
+schema: typikon.authority/v0.1
+
+id: oca-order-2023-08-27
+title: Order of Services for Sunday, August 27, 2023
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  service: Great Vespers at a Vigil
+  liturgical_date: 2023-08-27
+  section: Lord I Call
+  qualification: Commonly accepted order; local and diocesan practices may vary
+
+reference:
+  url: https://www.oca.org/PDF/Music/Rubrics/2023-0827-order-services.docx
+  accessed: 2026-08-22

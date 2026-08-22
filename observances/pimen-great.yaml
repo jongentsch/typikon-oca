@@ -1,0 +1,17 @@
+schema: typikon.observance/v0.1
+
+id: pimen-great
+name: Venerable Pimen the Great
+
+date:
+  fixed:
+    month: 8
+    day: 27
+
+rank: lesser
+
+authority:
+  - oca-order-2023-08-27
+
+properties:
+  has_glory: true

@@ -1,0 +1,17 @@
+schema: typikon.observance/v0.1
+
+id: archangel-michael-colossae
+name: Commemoration of the Miracle of the Archangel Michael at Colossae
+
+date:
+  fixed:
+    month: 9
+    day: 6
+
+rank: six-stichera
+
+authority:
+  - oca-order-2026-09-06
+
+properties:
+  has_glory: true

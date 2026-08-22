@@ -1,8 +1,0 @@
-schema: typikon.observance/v0.1
-
-id: six-stichera-saint-context
-name: Six-stichera saint context fixture
-rank: six-stichera
-
-properties:
-  has_glory: true
