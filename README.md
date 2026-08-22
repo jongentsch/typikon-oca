@@ -22,8 +22,12 @@ No liturgical text is included. The materials are semantic specifications only.
 cd ../typikon-engine
 cargo run -p typikon-cli -- validate ../typikon-oca
 cargo run -p typikon-cli -- compile-service --pack ../typikon-oca \
-  --date 2023-08-26 --service great_vespers --tone tone_3
+  --date 2023-08-26 --service great_vespers
 ```
+
+This fixture pack uses Revised Julian fixed dates. The generic engine also
+supports Julian fixed-date projection for a future Old Calendar pack or OCA
+calendar profile. The caller does not supply the calculated weekly tone.
 
 License selection for this tradition pack is pending and independent of the
 engine's license.

@@ -38,7 +38,6 @@ jobs:
           --pack typikon-oca
           --date 2023-08-26
           --service great_vespers
-          --tone tone_3
       - name: Compile dated six-stichera case
         run: >-
           cargo run --locked --manifest-path typikon-engine/Cargo.toml
@@ -46,4 +45,3 @@ jobs:
           --pack typikon-oca
           --date 2026-09-05
           --service great_vespers
-          --tone tone_5
