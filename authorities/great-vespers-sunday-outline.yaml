@@ -1,0 +1,13 @@
+schema: typikon.authority/v0.1
+
+id: oca-great-vespers-sunday-outline
+title: Great Vespers at a Vigil — Sunday (Saturday evening)
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  section: Resurrection with lesser or six-stichera saint, outside forefeast or afterfeast
+
+reference:
+  url: https://www.oca.org/liturgics/outlines/great-vespers-at-vigil-sun
+  accessed: 2026-08-22

@@ -1,0 +1,8 @@
+schema: typikon.observance/v0.1
+
+id: lesser-saint-context
+name: Lesser saint context fixture
+rank: lesser
+
+properties:
+  has_glory: true
