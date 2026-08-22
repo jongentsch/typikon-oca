@@ -11,6 +11,11 @@ lesser-saint branch with Ven. Pimen the Great on 2023-08-27 and the
 six-stichera branch with the Miracle of the Archangel Michael at Colossae on
 2026-09-06.
 
+The outline is represented as a `source`; the reusable 7+3 and 6+4
+interpretation is a `scoped_claim` citing that source; and each official dated
+service order is a `dated_witness`. This keeps a date-specific resolved result
+distinct from the general rule it confirms.
+
 No liturgical text is included. The materials are semantic specifications only.
 
 ```console

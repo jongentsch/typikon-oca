@@ -1,0 +1,20 @@
+schema: typikon.authority/v0.1
+
+id: oca-ordinary-sunday-lord-i-call
+title: OCA ordinary-Sunday Lord I Call allocation
+category: scoped_claim
+kind: authoritative
+
+sources:
+  - oca-great-vespers-sunday-outline
+
+claim: >-
+  Outside a forefeast or afterfeast, an ordinary Sunday with a lesser saint
+  uses seven resurrectional and three saint stichera, while a six-stichera
+  saint uses six resurrectional and four saint stichera; the saint's Glory is
+  used when prescribed and Now is the dogmatikon in the weekly tone.
+
+locator:
+  service: Great Vespers at a Vigil
+  section: Lord I Call
+  scope: Sunday outside a forefeast or afterfeast

@@ -2,6 +2,7 @@ schema: typikon.authority/v0.1
 
 id: oca-great-vespers-sunday-outline
 title: Great Vespers at a Vigil — Sunday (Saturday evening)
+category: source
 kind: authoritative
 publisher: Orthodox Church in America
 
