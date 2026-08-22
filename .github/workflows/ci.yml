@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate OCA pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out OCA pack
+        uses: actions/checkout@v6
+        with:
+          path: typikon-oca
+      - name: Check out engine
+        uses: actions/checkout@v6
+        with:
+          repository: jongentsch/typikon-engine
+          path: typikon-engine
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Validate pack
+        run: >-
+          cargo run --locked --manifest-path typikon-engine/Cargo.toml
+          -p typikon-cli -- validate typikon-oca
+      - name: Compile lesser-saint context
+        run: >-
+          cargo run --locked --manifest-path typikon-engine/Cargo.toml
+          -p typikon-cli -- compile-service
+          --pack typikon-oca
+          --date 2026-08-22
+          --service great_vespers
+          --tone tone_3
+          --observance lesser-saint-context
+      - name: Compile six-stichera context
+        run: >-
+          cargo run --locked --manifest-path typikon-engine/Cargo.toml
+          -p typikon-cli -- compile-service
+          --pack typikon-oca
+          --date 2026-08-22
+          --service great_vespers
+          --tone tone_3
+          --observance six-stichera-saint-context

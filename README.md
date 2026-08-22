@@ -1,5 +1,7 @@
 # Experimental OCA tradition pack
 
+[![CI](https://github.com/jongentsch/typikon-oca/actions/workflows/ci.yml/badge.svg)](https://github.com/jongentsch/typikon-oca/actions/workflows/ci.yml)
+
 This is a runtime resource pack for the sibling `typikon-engine` project. It is
 an engineering fixture, not an approved or complete OCA Typikon.
 
@@ -20,3 +22,6 @@ cargo run -p typikon-cli -- compile-service --pack ../typikon-oca \
 
 License selection for this tradition pack is pending and independent of the
 engine's license.
+
+GitHub Actions validates the pack with the sibling engine's CLI and compiles
+both published-rubric context fixtures on every push and pull request.
