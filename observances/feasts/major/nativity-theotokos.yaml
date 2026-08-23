@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.2
+schema: typikon.observance/v0.3
 
 id: nativity-theotokos
 name: Nativity of the Theotokos
@@ -13,11 +13,13 @@ rank: major-feast
 authority:
   - oca-nativity-theotokos-official-propers
 
+appointments:
+  vespers:
+    complete-propers: oca-nativity-theotokos-vespers
+  matins:
+    complete-propers: oca-nativity-theotokos-matins
+  divine_liturgy:
+    complete-propers: oca-nativity-theotokos-divine-liturgy
+
 properties:
   major_feast: true
-  vespers_bundle: oca-nativity-theotokos-vespers
-  vespers_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-the-theotokos
-  matins_bundle: oca-nativity-theotokos-matins
-  matins_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-the-theotokos
-  divine_liturgy_bundle: oca-nativity-theotokos-divine-liturgy
-  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-the-theotokos

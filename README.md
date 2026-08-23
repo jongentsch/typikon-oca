@@ -23,6 +23,10 @@ external proper-bundle reference for Vespers, Matins, and Divine Liturgy from
 the OCA Department of Liturgical Music and Translations' official feast index.
 Ordinary invariant service material remains in the base service template.
 
+The observance records appoint typed resources by service and role. Generic
+major-feast rules place the `complete-propers` appointment into each service's
+proper slot, so `compile-date` resolves the resource without a feast argument.
+
 Fixed feasts and the three Paschal-cycle observances are discovered
 automatically through the typed `date.fixed` and `date.paschal_offset` forms;
 conformance tests separately prove their 2026 offsets from calculated Orthodox

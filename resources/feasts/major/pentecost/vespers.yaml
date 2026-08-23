@@ -1,0 +1,12 @@
+schema: typikon.resource/v0.1
+
+id: oca-pentecost-vespers
+title: Holy Pentecost - Vespers proper bundle
+kind: service-bundle
+role: complete-propers
+
+authority:
+  - oca-pentecost-official-propers
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/holy-pentecost

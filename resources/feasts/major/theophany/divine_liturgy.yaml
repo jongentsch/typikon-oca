@@ -1,0 +1,12 @@
+schema: typikon.resource/v0.1
+
+id: oca-theophany-divine-liturgy
+title: Theophany of Our Lord - Divine Liturgy proper bundle
+kind: service-bundle
+role: complete-propers
+
+authority:
+  - oca-theophany-official-propers
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/theophany

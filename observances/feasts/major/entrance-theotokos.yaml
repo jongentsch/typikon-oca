@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.2
+schema: typikon.observance/v0.3
 
 id: entrance-theotokos
 name: Entrance of the Theotokos into the Temple
@@ -13,11 +13,13 @@ rank: major-feast
 authority:
   - oca-entrance-theotokos-official-propers
 
+appointments:
+  vespers:
+    complete-propers: oca-entrance-theotokos-vespers
+  matins:
+    complete-propers: oca-entrance-theotokos-matins
+  divine_liturgy:
+    complete-propers: oca-entrance-theotokos-divine-liturgy
+
 properties:
   major_feast: true
-  vespers_bundle: oca-entrance-theotokos-vespers
-  vespers_reference: https://www.oca.org/liturgics/music-downloads/entrance-of-the-theotokos
-  matins_bundle: oca-entrance-theotokos-matins
-  matins_reference: https://www.oca.org/liturgics/music-downloads/entrance-of-the-theotokos
-  divine_liturgy_bundle: oca-entrance-theotokos-divine-liturgy
-  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/entrance-of-the-theotokos

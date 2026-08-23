@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.2
+schema: typikon.observance/v0.3
 
 id: palm-sunday
 name: Entry of Our Lord into Jerusalem
@@ -11,11 +11,13 @@ rank: major-feast
 authority:
   - oca-palm-sunday-official-propers
 
+appointments:
+  vespers:
+    complete-propers: oca-palm-sunday-vespers
+  matins:
+    complete-propers: oca-palm-sunday-matins
+  divine_liturgy:
+    complete-propers: oca-palm-sunday-divine-liturgy
+
 properties:
   major_feast: true
-  vespers_bundle: oca-palm-sunday-vespers
-  vespers_reference: https://www.oca.org/liturgics/music-downloads/palm-sunday
-  matins_bundle: oca-palm-sunday-matins
-  matins_reference: https://www.oca.org/liturgics/music-downloads/palm-sunday
-  divine_liturgy_bundle: oca-palm-sunday-divine-liturgy
-  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/palm-sunday

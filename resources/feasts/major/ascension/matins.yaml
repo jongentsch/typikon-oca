@@ -1,0 +1,12 @@
+schema: typikon.resource/v0.1
+
+id: oca-ascension-matins
+title: Ascension of Our Lord - Matins (Orthros) proper bundle
+kind: service-bundle
+role: complete-propers
+
+authority:
+  - oca-ascension-official-propers
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/ascension-of-our-lord

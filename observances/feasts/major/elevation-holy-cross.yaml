@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.2
+schema: typikon.observance/v0.3
 
 id: elevation-holy-cross
 name: Elevation of the Holy Cross
@@ -13,11 +13,13 @@ rank: major-feast
 authority:
   - oca-elevation-holy-cross-official-propers
 
+appointments:
+  vespers:
+    complete-propers: oca-elevation-holy-cross-vespers
+  matins:
+    complete-propers: oca-elevation-holy-cross-matins
+  divine_liturgy:
+    complete-propers: oca-elevation-holy-cross-divine-liturgy
+
 properties:
   major_feast: true
-  vespers_bundle: oca-elevation-holy-cross-vespers
-  vespers_reference: https://www.oca.org/liturgics/music-downloads/elevation-of-the-lifegiving-cross
-  matins_bundle: oca-elevation-holy-cross-matins
-  matins_reference: https://www.oca.org/liturgics/music-downloads/elevation-of-the-lifegiving-cross
-  divine_liturgy_bundle: oca-elevation-holy-cross-divine-liturgy
-  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/elevation-of-the-lifegiving-cross

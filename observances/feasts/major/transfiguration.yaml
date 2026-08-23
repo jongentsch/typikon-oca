@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.2
+schema: typikon.observance/v0.3
 
 id: transfiguration
 name: Transfiguration of Our Lord
@@ -13,11 +13,13 @@ rank: major-feast
 authority:
   - oca-transfiguration-official-propers
 
+appointments:
+  vespers:
+    complete-propers: oca-transfiguration-vespers
+  matins:
+    complete-propers: oca-transfiguration-matins
+  divine_liturgy:
+    complete-propers: oca-transfiguration-divine-liturgy
+
 properties:
   major_feast: true
-  vespers_bundle: oca-transfiguration-vespers
-  vespers_reference: https://www.oca.org/liturgics/music-downloads/transfiguration
-  matins_bundle: oca-transfiguration-matins
-  matins_reference: https://www.oca.org/liturgics/music-downloads/transfiguration
-  divine_liturgy_bundle: oca-transfiguration-divine-liturgy
-  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/transfiguration

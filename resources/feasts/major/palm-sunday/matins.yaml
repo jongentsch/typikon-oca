@@ -1,0 +1,12 @@
+schema: typikon.resource/v0.1
+
+id: oca-palm-sunday-matins
+title: Entry of Our Lord into Jerusalem - Matins (Orthros) proper bundle
+kind: service-bundle
+role: complete-propers
+
+authority:
+  - oca-palm-sunday-official-propers
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/palm-sunday

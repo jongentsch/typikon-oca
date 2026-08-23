@@ -1,0 +1,12 @@
+schema: typikon.resource/v0.1
+
+id: oca-palm-sunday-vespers
+title: Entry of Our Lord into Jerusalem - Vespers proper bundle
+kind: service-bundle
+role: complete-propers
+
+authority:
+  - oca-palm-sunday-official-propers
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/palm-sunday

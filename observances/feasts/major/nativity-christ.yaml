@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.2
+schema: typikon.observance/v0.3
 
 id: nativity-christ
 name: Nativity of Christ
@@ -13,11 +13,13 @@ rank: major-feast
 authority:
   - oca-nativity-christ-official-propers
 
+appointments:
+  vespers:
+    complete-propers: oca-nativity-christ-vespers
+  matins:
+    complete-propers: oca-nativity-christ-matins
+  divine_liturgy:
+    complete-propers: oca-nativity-christ-divine-liturgy
+
 properties:
   major_feast: true
-  vespers_bundle: oca-nativity-christ-vespers
-  vespers_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-christ
-  matins_bundle: oca-nativity-christ-matins
-  matins_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-christ
-  divine_liturgy_bundle: oca-nativity-christ-divine-liturgy
-  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-christ

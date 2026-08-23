@@ -1,0 +1,12 @@
+schema: typikon.resource/v0.1
+
+id: oca-annunciation-divine-liturgy
+title: Annunciation of the Theotokos - Divine Liturgy proper bundle
+kind: service-bundle
+role: complete-propers
+
+authority:
+  - oca-annunciation-official-propers
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/annunciation-of-the-theotokos

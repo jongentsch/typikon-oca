@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.2
+schema: typikon.observance/v0.3
 
 id: pentecost
 name: Holy Pentecost
@@ -11,11 +11,13 @@ rank: major-feast
 authority:
   - oca-pentecost-official-propers
 
+appointments:
+  vespers:
+    complete-propers: oca-pentecost-vespers
+  matins:
+    complete-propers: oca-pentecost-matins
+  divine_liturgy:
+    complete-propers: oca-pentecost-divine-liturgy
+
 properties:
   major_feast: true
-  vespers_bundle: oca-pentecost-vespers
-  vespers_reference: https://www.oca.org/liturgics/music-downloads/holy-pentecost
-  matins_bundle: oca-pentecost-matins
-  matins_reference: https://www.oca.org/liturgics/music-downloads/holy-pentecost
-  divine_liturgy_bundle: oca-pentecost-divine-liturgy
-  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/holy-pentecost

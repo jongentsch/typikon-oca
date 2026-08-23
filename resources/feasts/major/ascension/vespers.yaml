@@ -1,0 +1,12 @@
+schema: typikon.resource/v0.1
+
+id: oca-ascension-vespers
+title: Ascension of Our Lord - Vespers proper bundle
+kind: service-bundle
+role: complete-propers
+
+authority:
+  - oca-ascension-official-propers
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/ascension-of-our-lord

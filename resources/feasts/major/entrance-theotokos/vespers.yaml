@@ -1,0 +1,12 @@
+schema: typikon.resource/v0.1
+
+id: oca-entrance-theotokos-vespers
+title: Entrance of the Theotokos into the Temple - Vespers proper bundle
+kind: service-bundle
+role: complete-propers
+
+authority:
+  - oca-entrance-theotokos-official-propers
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/entrance-of-the-theotokos
