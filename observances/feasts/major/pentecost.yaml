@@ -1,7 +1,10 @@
-schema: typikon.observance/v0.1
+schema: typikon.observance/v0.2
 
 id: pentecost
 name: Holy Pentecost
+
+date:
+  paschal_offset: 49
 
 rank: major-feast
 
@@ -10,7 +13,6 @@ authority:
 
 properties:
   major_feast: true
-  pascha_offset_days: 49
   vespers_bundle: oca-pentecost-vespers
   vespers_reference: https://www.oca.org/liturgics/music-downloads/holy-pentecost
   matins_bundle: oca-pentecost-matins

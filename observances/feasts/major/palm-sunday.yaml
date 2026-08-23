@@ -1,7 +1,10 @@
-schema: typikon.observance/v0.1
+schema: typikon.observance/v0.2
 
 id: palm-sunday
 name: Entry of Our Lord into Jerusalem
+
+date:
+  paschal_offset: -7
 
 rank: major-feast
 
@@ -10,7 +13,6 @@ authority:
 
 properties:
   major_feast: true
-  pascha_offset_days: -7
   vespers_bundle: oca-palm-sunday-vespers
   vespers_reference: https://www.oca.org/liturgics/music-downloads/palm-sunday
   matins_bundle: oca-palm-sunday-matins

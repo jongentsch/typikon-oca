@@ -24,9 +24,9 @@ the OCA Department of Liturgical Music and Translations' official feast index.
 Ordinary invariant service material remains in the base service template.
 
 Fixed feasts and the three Paschal-cycle observances are discovered
-automatically. The latter use the existing scalar `pascha_offset_days`
-property; conformance tests separately prove their 2026 offsets from the
-calculated Orthodox Pascha.
+automatically through the typed `date.fixed` and `date.paschal_offset` forms;
+conformance tests separately prove their 2026 offsets from calculated Orthodox
+Pascha.
 
 No liturgical text is included. The materials are semantic specifications only.
 
