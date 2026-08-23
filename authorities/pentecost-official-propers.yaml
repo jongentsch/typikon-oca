@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-pentecost-official-propers
+title: OCA official Holy Pentecost liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Holy Pentecost
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/holy-pentecost
+  accessed: 2026-08-22

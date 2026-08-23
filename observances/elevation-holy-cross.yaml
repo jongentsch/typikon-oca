@@ -1,0 +1,23 @@
+schema: typikon.observance/v0.1
+
+id: elevation-holy-cross
+name: Elevation of the Holy Cross
+
+date:
+  fixed:
+    month: 9
+    day: 14
+
+rank: major-feast
+
+authority:
+  - oca-elevation-holy-cross-official-propers
+
+properties:
+  major_feast: true
+  vespers_bundle: oca-elevation-holy-cross-vespers
+  vespers_reference: https://www.oca.org/liturgics/music-downloads/elevation-of-the-lifegiving-cross
+  matins_bundle: oca-elevation-holy-cross-matins
+  matins_reference: https://www.oca.org/liturgics/music-downloads/elevation-of-the-lifegiving-cross
+  divine_liturgy_bundle: oca-elevation-holy-cross-divine-liturgy
+  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/elevation-of-the-lifegiving-cross

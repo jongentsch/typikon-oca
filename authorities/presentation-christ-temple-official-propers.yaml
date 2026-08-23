@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-presentation-christ-temple-official-propers
+title: OCA official Meeting of Our Lord in the Temple liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Meeting of Our Lord in the Temple
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/meeting-of-our-lord
+  accessed: 2026-08-22

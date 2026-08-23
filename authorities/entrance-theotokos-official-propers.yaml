@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-entrance-theotokos-official-propers
+title: OCA official Entrance of the Theotokos into the Temple liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Entrance of the Theotokos into the Temple
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/entrance-of-the-theotokos
+  accessed: 2026-08-22

@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-annunciation-official-propers
+title: OCA official Annunciation of the Theotokos liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Annunciation of the Theotokos
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/annunciation-of-the-theotokos
+  accessed: 2026-08-22

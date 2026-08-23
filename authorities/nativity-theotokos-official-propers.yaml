@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-nativity-theotokos-official-propers
+title: OCA official Nativity of the Theotokos liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Nativity of the Theotokos
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/nativity-of-the-theotokos
+  accessed: 2026-08-22

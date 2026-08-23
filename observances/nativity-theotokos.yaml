@@ -1,0 +1,23 @@
+schema: typikon.observance/v0.1
+
+id: nativity-theotokos
+name: Nativity of the Theotokos
+
+date:
+  fixed:
+    month: 9
+    day: 8
+
+rank: major-feast
+
+authority:
+  - oca-nativity-theotokos-official-propers
+
+properties:
+  major_feast: true
+  vespers_bundle: oca-nativity-theotokos-vespers
+  vespers_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-the-theotokos
+  matins_bundle: oca-nativity-theotokos-matins
+  matins_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-the-theotokos
+  divine_liturgy_bundle: oca-nativity-theotokos-divine-liturgy
+  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/nativity-of-the-theotokos

@@ -1,0 +1,19 @@
+schema: typikon.observance/v0.1
+
+id: ascension
+name: Ascension of Our Lord
+
+rank: major-feast
+
+authority:
+  - oca-ascension-official-propers
+
+properties:
+  major_feast: true
+  pascha_offset_days: 39
+  vespers_bundle: oca-ascension-vespers
+  vespers_reference: https://www.oca.org/liturgics/music-downloads/ascension-of-our-lord
+  matins_bundle: oca-ascension-matins
+  matins_reference: https://www.oca.org/liturgics/music-downloads/ascension-of-our-lord
+  divine_liturgy_bundle: oca-ascension-divine-liturgy
+  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/ascension-of-our-lord

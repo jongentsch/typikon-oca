@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-ascension-official-propers
+title: OCA official Ascension of Our Lord liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Ascension of Our Lord
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/ascension-of-our-lord
+  accessed: 2026-08-22

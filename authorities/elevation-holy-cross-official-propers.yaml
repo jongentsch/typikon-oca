@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-elevation-holy-cross-official-propers
+title: OCA official Elevation of the Holy Cross liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Elevation of the Holy Cross
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/elevation-of-the-lifegiving-cross
+  accessed: 2026-08-22

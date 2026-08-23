@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-transfiguration-official-propers
+title: OCA official Transfiguration of Our Lord liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Transfiguration of Our Lord
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/transfiguration
+  accessed: 2026-08-22

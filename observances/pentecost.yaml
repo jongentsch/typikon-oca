@@ -1,0 +1,19 @@
+schema: typikon.observance/v0.1
+
+id: pentecost
+name: Holy Pentecost
+
+rank: major-feast
+
+authority:
+  - oca-pentecost-official-propers
+
+properties:
+  major_feast: true
+  pascha_offset_days: 49
+  vespers_bundle: oca-pentecost-vespers
+  vespers_reference: https://www.oca.org/liturgics/music-downloads/holy-pentecost
+  matins_bundle: oca-pentecost-matins
+  matins_reference: https://www.oca.org/liturgics/music-downloads/holy-pentecost
+  divine_liturgy_bundle: oca-pentecost-divine-liturgy
+  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/holy-pentecost

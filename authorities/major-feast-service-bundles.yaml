@@ -1,0 +1,30 @@
+schema: typikon.authority/v0.1
+
+id: oca-major-feast-service-bundles
+title: OCA official major-feast service bundle publication
+category: scoped_claim
+kind: authoritative
+
+sources:
+  - oca-nativity-theotokos-official-propers
+  - oca-elevation-holy-cross-official-propers
+  - oca-entrance-theotokos-official-propers
+  - oca-nativity-christ-official-propers
+  - oca-theophany-official-propers
+  - oca-presentation-christ-temple-official-propers
+  - oca-annunciation-official-propers
+  - oca-palm-sunday-official-propers
+  - oca-ascension-official-propers
+  - oca-pentecost-official-propers
+  - oca-transfiguration-official-propers
+  - oca-dormition-theotokos-official-propers
+
+claim: >-
+  The cited official OCA feast indexes publish the feast-specific propers for
+  Vespers, Matins, and Divine Liturgy. A semantic renderer may treat the
+  corresponding official index as the complete proper bundle for that feast
+  and service while ordinary invariant service material remains in its base
+  service template.
+
+locator:
+  scope: Twelve major feasts; feast-variable propers only

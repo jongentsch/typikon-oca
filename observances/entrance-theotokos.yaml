@@ -1,0 +1,23 @@
+schema: typikon.observance/v0.1
+
+id: entrance-theotokos
+name: Entrance of the Theotokos into the Temple
+
+date:
+  fixed:
+    month: 11
+    day: 21
+
+rank: major-feast
+
+authority:
+  - oca-entrance-theotokos-official-propers
+
+properties:
+  major_feast: true
+  vespers_bundle: oca-entrance-theotokos-vespers
+  vespers_reference: https://www.oca.org/liturgics/music-downloads/entrance-of-the-theotokos
+  matins_bundle: oca-entrance-theotokos-matins
+  matins_reference: https://www.oca.org/liturgics/music-downloads/entrance-of-the-theotokos
+  divine_liturgy_bundle: oca-entrance-theotokos-divine-liturgy
+  divine_liturgy_reference: https://www.oca.org/liturgics/music-downloads/entrance-of-the-theotokos

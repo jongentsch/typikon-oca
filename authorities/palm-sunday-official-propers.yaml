@@ -1,0 +1,15 @@
+schema: typikon.authority/v0.1
+
+id: oca-palm-sunday-official-propers
+title: OCA official Entry of Our Lord into Jerusalem liturgical music and propers index
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+
+locator:
+  observance: Entry of Our Lord into Jerusalem
+  scope: Vespers, Matins, and Divine Liturgy feast propers published on the index
+
+reference:
+  url: https://www.oca.org/liturgics/music-downloads/palm-sunday
+  accessed: 2026-08-22
