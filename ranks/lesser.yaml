@@ -1,0 +1,13 @@
+schema: typikon.rank/v0.1
+
+id: lesser
+name: Lesser commemoration
+authority:
+  - oca-service-structures
+services:
+  great_vespers:
+    required:
+      - section: lord_i_call
+        component: stichera
+      - section: lord_i_call
+        component: glory

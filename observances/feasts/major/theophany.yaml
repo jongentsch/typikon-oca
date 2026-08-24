@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: theophany
 name: Theophany of Our Lord
@@ -12,14 +12,6 @@ rank: major-feast
 
 authority:
   - oca-theophany-official-propers
-
-appointments:
-  vespers:
-    complete-propers: oca-theophany-vespers
-  matins:
-    complete-propers: oca-theophany-matins
-  divine_liturgy:
-    complete-propers: oca-theophany-divine-liturgy
 
 properties:
   major_feast: true

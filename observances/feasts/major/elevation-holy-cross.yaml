@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: elevation-holy-cross
 name: Elevation of the Holy Cross
@@ -12,14 +12,6 @@ rank: major-feast
 
 authority:
   - oca-elevation-holy-cross-official-propers
-
-appointments:
-  vespers:
-    complete-propers: oca-elevation-holy-cross-vespers
-  matins:
-    complete-propers: oca-elevation-holy-cross-matins
-  divine_liturgy:
-    complete-propers: oca-elevation-holy-cross-divine-liturgy
 
 properties:
   major_feast: true

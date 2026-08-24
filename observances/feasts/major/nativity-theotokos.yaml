@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: nativity-theotokos
 name: Nativity of the Theotokos
@@ -12,14 +12,6 @@ rank: major-feast
 
 authority:
   - oca-nativity-theotokos-official-propers
-
-appointments:
-  vespers:
-    complete-propers: oca-nativity-theotokos-vespers
-  matins:
-    complete-propers: oca-nativity-theotokos-matins
-  divine_liturgy:
-    complete-propers: oca-nativity-theotokos-divine-liturgy
 
 properties:
   major_feast: true

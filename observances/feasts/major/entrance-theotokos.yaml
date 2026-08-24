@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: entrance-theotokos
 name: Entrance of the Theotokos into the Temple
@@ -12,14 +12,6 @@ rank: major-feast
 
 authority:
   - oca-entrance-theotokos-official-propers
-
-appointments:
-  vespers:
-    complete-propers: oca-entrance-theotokos-vespers
-  matins:
-    complete-propers: oca-entrance-theotokos-matins
-  divine_liturgy:
-    complete-propers: oca-entrance-theotokos-divine-liturgy
 
 properties:
   major_feast: true

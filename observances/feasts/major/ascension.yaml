@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: ascension
 name: Ascension of Our Lord
@@ -10,14 +10,6 @@ rank: major-feast
 
 authority:
   - oca-ascension-official-propers
-
-appointments:
-  vespers:
-    complete-propers: oca-ascension-vespers
-  matins:
-    complete-propers: oca-ascension-matins
-  divine_liturgy:
-    complete-propers: oca-ascension-divine-liturgy
 
 properties:
   major_feast: true

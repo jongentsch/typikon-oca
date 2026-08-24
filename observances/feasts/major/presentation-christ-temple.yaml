@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: presentation-christ-temple
 name: Meeting of Our Lord in the Temple
@@ -12,14 +12,6 @@ rank: major-feast
 
 authority:
   - oca-presentation-christ-temple-official-propers
-
-appointments:
-  vespers:
-    complete-propers: oca-presentation-christ-temple-vespers
-  matins:
-    complete-propers: oca-presentation-christ-temple-matins
-  divine_liturgy:
-    complete-propers: oca-presentation-christ-temple-divine-liturgy
 
 properties:
   major_feast: true

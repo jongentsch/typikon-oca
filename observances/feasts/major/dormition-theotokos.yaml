@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: dormition-theotokos
 name: Dormition of the Theotokos
@@ -12,14 +12,6 @@ rank: major-feast
 
 authority:
   - oca-dormition-theotokos-official-propers
-
-appointments:
-  vespers:
-    complete-propers: oca-dormition-theotokos-vespers
-  matins:
-    complete-propers: oca-dormition-theotokos-matins
-  divine_liturgy:
-    complete-propers: oca-dormition-theotokos-divine-liturgy
 
 properties:
   major_feast: true

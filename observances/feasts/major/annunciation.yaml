@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: annunciation
 name: Annunciation of the Theotokos
@@ -12,14 +12,6 @@ rank: major-feast
 
 authority:
   - oca-annunciation-official-propers
-
-appointments:
-  vespers:
-    complete-propers: oca-annunciation-vespers
-  matins:
-    complete-propers: oca-annunciation-matins
-  divine_liturgy:
-    complete-propers: oca-annunciation-divine-liturgy
 
 properties:
   major_feast: true

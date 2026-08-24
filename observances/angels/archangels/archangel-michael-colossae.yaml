@@ -1,4 +1,4 @@
-schema: typikon.observance/v0.3
+schema: typikon.observance/v0.4
 
 id: archangel-michael-colossae
 name: Commemoration of the Miracle of the Archangel Michael at Colossae
@@ -15,3 +15,19 @@ authority:
 
 properties:
   has_glory: true
+
+services:
+  great_vespers:
+    lord_i_call:
+      stichera:
+        kind: hymn_set
+        role: saint
+        title: Commemoration of the Miracle of the Archangel Michael at Colossae - stichera at Lord, I Call
+        authority:
+          - oca-order-2026-09-06
+      glory:
+        kind: sticheron
+        role: doxastikon
+        title: Commemoration of the Miracle of the Archangel Michael at Colossae - doxastikon at Lord, I Call
+        authority:
+          - oca-order-2026-09-06

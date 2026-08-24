@@ -1,0 +1,12 @@
+schema: typikon.authority/v0.1
+
+id: oca-service-structures
+title: Orthodox Church in America liturgical service texts and outlines
+category: source
+kind: authoritative
+publisher: Orthodox Church in America
+locator:
+  scope: Service structures, fixed portions, and daily variable texts
+reference:
+  url: https://www.oca.org/liturgics/service-texts
+  accessed: 2026-08-24
