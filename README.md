@@ -21,9 +21,6 @@ pages and service sources remain authority evidence, while missing
 component-level perennial propers compile as explicit `unresolved` entries.
 This prevents a dated order from being reused silently in another year.
 
-The former bundle wrappers are preserved only under
-`archive/legacy-resource-bundles/` for migration history and are not loaded.
-
 ```console
 cd ../typikon-engine
 cargo run -p typikon-cli -- validate ../typikon-oca
